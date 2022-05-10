@@ -2,4 +2,5 @@ target
 /.bsp
 /.idea
 logs
+**/*.log
 /RUNNING_PID
