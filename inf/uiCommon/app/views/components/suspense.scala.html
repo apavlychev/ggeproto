@@ -1,0 +1,16 @@
+@import ru.ggeproto.inf.common.utils.UuidHelper
+
+@(fetch: Call, id: String = UuidHelper.randomUuid)
+
+<div id="@id"></div>
+
+<script>
+    $.ajax({
+        url: "@fetch.url",
+        type: "@fetch.method",
+        success: res => {
+            $("#@id").html(res)
+        },
+        error: error => console.log(error)
+    })
+</script>

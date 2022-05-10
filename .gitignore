@@ -1,5 +1,5 @@
 target
 /.bsp
 /.idea
-/logs
+logs
 /RUNNING_PID

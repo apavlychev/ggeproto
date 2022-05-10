@@ -1,0 +1,1 @@
+GET /document                  ru.ggeproto.domain.async.controllers.admin.AsyncDocumentController.document

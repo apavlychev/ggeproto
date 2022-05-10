@@ -1,0 +1,2 @@
+# An example controller showing how to write asynchronous code
+GET     /message                    ru.ggeproto.domain.async.controllers.main.AsyncController.message

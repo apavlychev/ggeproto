@@ -1,0 +1,1 @@
+GET /assets/*file           controllers.Assets.versioned(path="/public/lib/uicommon", file: Asset)
